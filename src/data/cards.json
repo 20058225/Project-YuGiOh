@@ -1,0 +1,65 @@
+[
+  {
+      "id": "back-1",
+      "name": "Cosmos Sentinel, The Galactic Guardian",
+      "level": 5,
+      "image": "src/image/cosmos-sentinel.png",
+      "description": "A towering sentinel forged from starlight and cosmic energy, Cosmos Sentinel protects the balance of the universe. With an impenetrable shield of light and a spear that channels pure celestial power, it stands as the first line of defense against intergalactic threats. Its presence alone inspires allies and strikes fear into the hearts of invaders.",
+      "atk": 2800,
+      "def": 2500
+  },
+  {
+      "id": "back-2",
+      "name": "Nebula Dragon, The Celestial Flame",
+      "level": 7,
+      "image": "src/image/nebuladragon.png",
+      "description": "Born from the fiery core of a collapsing star, Nebula Dragon soars through the cosmos leaving a trail of blazing stardust. Its scales shimmer like a thousand galaxies, and its breath incinerates anything in its path. This majestic dragon is the embodiment of destruction and rebirth, guarding the secrets of the universe’s creation.",
+      "atk": 3200,
+      "def": 2000
+  },
+  {
+      "id": "back-3",
+      "name": "Cyberblade, The Digital Reaper",
+      "level": 3,
+      "image": "src/image/cyberblade-paladin.png",
+      "description": "A sleek and deadly warrior constructed from the finest cybernetic technology, Cyberblade strikes with precision and speed. Its dual blades can slice through both flesh and data, corrupting enemies in both physical and virtual realms. A silent hunter, it executes its mission without emotion, ensuring no trace of its targets remains.",
+      "atk": 2600,
+      "def": 2300
+  },
+  {
+      "id": "back-4",
+      "name": "Mechadragon, The Steel Titan",
+      "level": 9,
+      "image": "src/image/mechadragon.png",
+      "description": "This colossal dragon is an unstoppable fusion of advanced mechanics and draconic might. With a body reinforced by unbreakable alloys and wings powered by thrusters, Mechadragon dominates both land and sky. It wields an arsenal of high-tech weaponry, raining destruction on anything that dares challenge its supremacy.",
+      "atk": 3500,
+      "def": 3000
+  },
+  {
+      "id": "back-5",
+      "name": "Stormbringer, The Tempest Wielder",
+      "level": 6,
+      "image": "src/image/stormbringer.png",
+      "description": "A storm incarnate, Stormbringer harnesses the raw power of lightning and thunder. With a hammer crackling with electrical energy, this elemental warrior commands the skies, unleashing devastating storms on its enemies. Wherever it goes, chaos follows, and the sound of thunder signals its arrival.",
+      "atk": 2900,
+      "def": 2100
+  },
+  {
+      "id": "back-6",
+      "name": "Archmage Stellarion, The Cosmic Sage",
+      "level": 3,
+      "image": "src/image/archmage.png",
+      "description": "An ancient sorcerer who has unlocked the mysteries of the stars, Archmage Stellarion wields unparalleled magical power. His staff channels the energies of distant galaxies, bending space and time to his will. Stellarion is a beacon of wisdom and power, protecting the fragile balance of the universe with his arcane mastery.",
+      "atk": 2400,
+      "def": 2600
+  },
+  {
+      "id": "back-7",
+      "name": "Aegis Knight, The Shield of Eternity",
+      "level": 4,
+      "image": "src/image/aegis-knight.png",
+      "description": "Clad in impenetrable armor forged from the core of a dying star, the Aegis Knight is the ultimate defender. With a shield that can repel any attack and a sword that burns with the light of justice, this valiant warrior stands unwavering against any foe. Wherever there is darkness, the Aegis Knight brings hope and light.",
+      "atk": 3000,
+      "def": 2800
+  }
+]

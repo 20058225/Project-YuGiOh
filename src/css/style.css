@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Yugioh;
+    src: url(../font/fonte-yu-gi-oh.otf);
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Yugioh', serif;
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header .title {
+    color: #F1ECFF;
+}
+.card {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 5px;
+    position: absolute;
+}
+.card.select {
+    opacity: 1;
+    z-index: 1;
+}
+.charactersList { 
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.card .name{
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: radial-gradient(circle, #F3E2C8, #E4CFA5, #C4A57A);
+    border: 2px solid #A67C52;
+    border-radius: 4px;
+}
+.card .star {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/cardLevel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.card .cardLevel {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 5px;
+}
+.card .cardImage {
+    max-width: 260px;
+    align-self: center;
+}
+.card .informations {
+    border-radius: 5px;
+    max-width: 300px;
+    color: #000000;
+    background: radial-gradient(circle, #F3E2C8, #E4CFA5, #C4A57A);
+    border: 2px solid #A67C52;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+}
+.card .informations .atkInfo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
+}
+.card .informations .atkInfo span{
+    font-size: 13px;
+}
+.card .informations .description {
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    max-height: 95px;
+    overflow-y: scroll;
+    font-size: 13px;
+    text-align: justify;
+}
+.back-1 {
+    background: url(../image/back-1.jpg);
+}
+.back-2 {
+    background: url(../image/back-2.jpg);
+}
+.back-3 {
+    background: url(../image/back-3.jpg);
+}
+.back-4 {
+    background: url(../image/back-4.jpg);
+}
+.back-5 {
+    background: url(../image/back-5.jpg);
+}
+.back-6 {
+    background: url(../image/back-6.jpg);
+}
+.back-7 {
+    background: url(../image/back-7.jpg);
+}
+.btnArrow {
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(1000, 100, 111, 0,2) 0px 7px 29px 0px;
+}
+.btnArrow.btnGoBack {
+    transform: rotateY(180deg);
+}
+.btnArrow:hover{
+    background-color: #5351fe;
+}
+
+/* @@ Scroll Style */
+body::-webkit-scrollbar-track {
+    background-color: #C08057;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #C08057;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #C08057;
+    cursor: pointer;
+}
