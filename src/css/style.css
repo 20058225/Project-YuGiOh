@@ -36,7 +36,7 @@ body {
     gap: 5px;
     position: absolute;
 }
-.card.select {
+.card.selected {
     opacity: 1;
     z-index: 1;
 }
@@ -159,4 +159,40 @@ body::-webkit-scrollbar-track {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #C08057;
     cursor: pointer;
+}
+
+/* @@ Responsive */
+@media(max-width: 768px){
+    .body{
+        background-position: center;
+        padding: 0 15px;
+    }
+    .slider{
+        gap: 10px;
+    }
+}
+@media(max-width: 496px){
+    .slider{
+        position: relative;
+    }
+    .btnArrow{
+        position: absolute;
+        bottom: -16%;
+    }
+    #btnAdvance{
+        right: 20%;
+    }
+    #btnGoBack{
+        left: 20%;
+    }
+}
+@media(max-width: 375px){
+    body{
+        justify-content: start;
+        padding-top: 10px;
+        gap: 10px;
+    }
+    .header{
+        font-size: 12px;
+    }
 }
